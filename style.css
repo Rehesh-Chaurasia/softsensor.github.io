@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.main_header_bar {
+    background-image: url(heading.jpg);
+    background-color:#3F5C9A;
+    position: fixed;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:150px;
+}
+h1 {
+    text-align:center;
+    padding-top: 25px;
+    margin-top:25px;
+    color: white;
+  
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color:rgb(221, 230, 247);
+
+}
+
+.container {
+    min-width: 20rem;
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 5rem;
+    text-align:center;
+    padding-top:70px;
+    margin-top:10rem;
+    color: #3F5C9A;
+    display: flex;
+    
+}
+
+.container .products {
+    margin-top: 5rem;
+    background:white;
+    padding:2rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 2.5rem 2.5rem 2.5rem -1.7rem rgba(0, 0, 0, 0.3);
+}
+
+.products_id {
+    width: 5rem;
+    height: 5rem;
+    background-color: #2980b9;
+    color: aliceblue;
+    display:grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.title{
+    font-size: 2.5rem;
+    margin: 2rem 0 1rem 0;
+    text-transform: capitalize;
+}
+
+.price {
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0; 
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem 0; 
+}
+
+.category {
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem 0; 
+}
+
+ img {
+    max-width:200px; 
+    height: auto;
+}
+   
+.products_info{
+    font-size: 1.7rem;
+}
+
+button {
+    align-items: center;
+    background-color:tomato;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 20px;
+    cursor: pointer;
+  }
+
+  .button1 {  
+    align-items: center;  
+    border-radius: 20px;
+    color: white;
+    padding-top: 50rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 20px;
+    cursor: pointer;
+  }
+
+  header {
+      background-image: url(cart.png);
+      background-color: #3F5C9A;
+      background-repeat: no repeat;
+      background-size: cover;
+      background-position:center;
+      height:150px;
+      position:relative;
+      color:whitesmoke;
+  }
+
+  .overlay {
+      position:absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      height:100%;
+      right: 0;
+      bottom:0;
+      padding:0 !important;
+      margin: 0 !important;
+      background-color: rgba(10,10,10,0.3);
+    }
+
+    nav {
+        position:absolute;
+        top:0;
+        right:0;
+        left:0;
+        z-index: 2;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 50px 60px 0 60px;
+    }
+    
+    nav li {
+        list-style:none;
+        display:inline-block;
+        padding-right:10px;
+        padding-left:10px;
+    }
+
+    nav li span {
+        padding-left: 5px;
+    }
+
+    li a {
+        padding:5px;
+        background-color:#fff;
+        text-decoration: none;
+    }
+
+    .cart ion-icon {
+        vertical-align:bottom;
+        font-size:20px;
+        padding-right:5px;
+    }
+
+    .cart a {
+        background-color:royalblue;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+
+  
+
+  
